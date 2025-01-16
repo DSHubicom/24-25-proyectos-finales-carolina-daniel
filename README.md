@@ -1,5 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/IIN1KJqP)
-# Plantilla_Proyecto_Ubicuo
-Plantilla para proyectos de computación ubícua.
-El espacio de github se usará a modo de repositorio tanto del códigoc como de la documentación. No es necesario describir de nuevo el proyecto aquí, ya se debe encontrar todo bien documentado y organizado en https://s-computing.blogspot.com/
-El archivo README se usará en todo caso como índice al resto de información. 
+# Hydrothron
+Se ofrece un sistema de riego automático diseñado para facilitar el mantenimiento de jardines y cultivos. Este sistema utiliza un detector de humedad, junto con información de localización y previsión de precipitaciones, para optimizar el riego. El dispositivo cuenta con tres luces LED: roja, verde y azul, que indican diferentes estados de humedad. La luz roja señala humedad insuficiente, la luz verde indica humedad correcta, y la luz azul alerta de humedad insuficiente, pero con previsión de precipitaciones suficientes.
+
+El sistema también incluye un control de válvula que regula el flujo de agua mientras no se alcance el umbral de humedad establecido. Además, se ofrece una configuración inicial en la que se especifica el tipo de cultivo, determinando así el grado de humedad óptimo para cada caso.
+
+El riego se programará para realizarse al anochecer, utilizando datos obtenidos vía web y GPS para asegurar la precisión en la administración del agua. Esto proporciona comodidad y eficiencia en el manejo del riego, asegurando un cuidado adecuado de los cultivos y jardines.

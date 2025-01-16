@@ -1,1 +1,3 @@
-Aquí irá el código y podrá tener tantas subcarpetas como necesitéis (al menos 1 por dispositivo)
+Sensor_Emisor --> Contiene el código de la placa que medirá la humedad.
+Receptor_Demos --> Contiene el código que se ha utilizado para hacer las pruebas y el vídeo, ya que el código real no permie hacer pruebas repetitivas.
+Receptor_Horario --> Es el código de funcionamiento real, con horarios ajustados a un riego real.
