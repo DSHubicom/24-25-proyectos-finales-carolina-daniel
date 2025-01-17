@@ -314,9 +314,9 @@ void loop() {
       digitalWrite(LED_VERDE, LOW);
       while (humedad < humedadIdeal) {
         digitalWrite(BOMBA, HIGH);  // Encender la bomba hasta humedad correcta.
-        digitalWrite(LED_ROJO, LOW);
-        digitalWrite(LED_VERDE, HIGH);
       }
+      digitalWrite(LED_ROJO, LOW);
+      digitalWrite(LED_VERDE, HIGH);
       digitalWrite(BOMBA, LOW);  // Apagar bomba tras riego
     } else if (humedad < humedadIdeal && rainInNext12Hours) {
       Serial.println("HUMEDAD INSUFICIENTE PERO LLUVIA PROXIMA: LED AMARILLO Y BOMBA INACTIVA");
